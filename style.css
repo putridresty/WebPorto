@@ -1,0 +1,209 @@
+@media screen {}
+
+/* RESET STYLE */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  margin: 10px 350px;
+}
+
+
+.navbar-list {
+  display: flex;
+}
+
+.navbar-list li {
+  font-weight: 200;
+  font-size: 17px;
+  color: rgb(23, 23, 23);
+  list-style: none;
+}
+
+.navbar-list li a {
+  color: inherit;
+  padding: 8px 20px;
+  border-radius: 25px;
+}
+
+.navbar-list li a:hover {
+  background-color: rgb(238, 105, 131);
+  color: #fff;
+}
+
+.logo-putri {
+  font-weight: 1000;
+  font-size: 20px;
+  color: rgb(238, 105, 131);
+}
+
+/* FOOTER */
+footer {
+  margin: 10px;
+}
+
+footer p {
+  font-weight: 700;
+  text-align: center;
+}
+
+/* HOMEPAGE */
+.introduction {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(255, 233, 237);
+  padding: 0 400px;
+  /* margin-top: 100px; */
+  height: 900px;
+}
+
+.intro-img img {
+  width: 400px;
+  border-radius: 150px;
+}
+
+.intro-text {
+  background: rgba(238, 105, 131, 0.6);
+  border-radius: 30px;
+  backdrop-filter: blur(0px);
+  border: 2px solid rgba(0, 0, 0, 0.05);
+  background-clip: padding-box;
+  margin-left: 100px;
+  color: #fff;
+  /* color: rgb(23, 23, 23); */
+  /* box-shadow: black; */
+}
+
+.intro-text h1 {
+  font-weight: 1000;
+  font-size: 40px;
+  margin: 20px;
+}
+
+.intro-text h3 {
+  font-weight: 700;
+  font-size: 20px 20px 10px;
+  margin-left: 20px;
+}
+
+.intro-text p {
+  font-weight: 500;
+  font-size: 15px;
+  margin: 10px 20px 20px;
+}
+
+
+.skills{ 
+  margin: 150px;
+}
+
+
+.skills h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.icons-skills {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 350px;
+  }
+
+
+#icons-figma, #icons-html, #icons-css, #icons-js  {
+  width: 100px;
+}
+
+/* ABOUT PAGE */
+.exp-list li {
+  list-style: inside;
+}
+
+/* PROJECTS PAGE */
+.proj-title {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.article-project{
+  display: flex;
+  justify-content: space-between;
+  margin: 75px 400px;
+}
+
+.article-project p {
+  text-align: center;
+}
+
+.article-project a {
+  color: inherit;
+}
+
+.card {
+  background-color: rgb(247, 194, 204);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 300px;
+  transition: 0.3s;
+  margin-bottom: 340px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 20px 32px;
+  text-align: center;
+}
+
+.card #icons-github {
+  margin: 20px 100px 0 ;
+}
+
+
+/* CONTACT PAGE */
+.contact-me{ 
+  margin: 150px;
+}
+
+
+.contact-me h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.icons-contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 350px;
+  }
+
+#icons-ig, #icons-linkedin, #icons-wa, #icons-github  {
+  width: 100px;
+}
+
+.icons-github {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px 350px;
+  }
+
+.cek-project {
+  margin-top: 175px;
+}
