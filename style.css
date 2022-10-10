@@ -89,20 +89,31 @@ footer p {
   font-weight: 1000;
   font-size: 40px;
   margin: 20px;
+  text-align: center;
 }
 
 .intro-text h3 {
   font-weight: 700;
   font-size: 20px 20px 10px;
   margin-left: 20px;
+  text-align: center;
 }
 
 .intro-text p {
   font-weight: 500;
   font-size: 15px;
   margin: 10px 20px 20px;
+  text-align: center;
 }
 
+.intro-text button {
+  color: #fff;
+  background-color: rgb(199, 69, 106);
+  border-radius: 30px;
+  border: 2px solid rgba(0, 0, 0, 0.05);
+  margin: 10px 30px 30px 250px ;
+  padding: 10px;
+}
 
 .skills{ 
   margin: 150px;
